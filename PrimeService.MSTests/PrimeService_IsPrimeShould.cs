@@ -13,13 +13,13 @@ namespace Prime.UnitTests.Services
             _primeService = new PrimeService();
         }
 
-        [TestMethod]
+        /**[TestMethod]
         public void ReturnFalseGivenValueOf1()
         {
             var result = _primeService.IsPrime(1);
 
             Assert.IsFalse(result, "1 should not be prime");
-        }
+        }**/
 
         [TestMethod]
         public unsafe void AccessViolation()
